@@ -122,3 +122,7 @@ nav ul li a:hover::after{
 .tab-links.active-link::after{
     width: 50%;
 }
+.tab-contents ul li span{
+    color:#1e0c5c
+    font-size: 14px;
+}

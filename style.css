@@ -117,13 +117,14 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color:#fff ;
+    /* font-size: 25px; */
 }
 .tab-titles{
-
+    font-size: 19px;
     display: flex;
     margin: 20px 0 40px;
     transform: scale(1.05); 
-    transform: scale(1.5); 
+  
 }
 .tab-links{
     margin-right: 50px;
@@ -150,7 +151,11 @@ nav ul li a:hover::after{
     width: 50%;
 }
 .tab-contents ul li span{
+    font-size: 25px;
     color:#1e0c5c
+    font-size: 25px;
+}
+.tab-contents{
     font-size: 25px;
 }
 .styled-image {

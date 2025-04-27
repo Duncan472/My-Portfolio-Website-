@@ -48,6 +48,7 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin:10px 20px ;
+    transform: scale(1.05); 
 }
 nav ul li a{
     color: #fff;
@@ -64,6 +65,8 @@ nav ul li a::after{
     left: 0;
     bottom: -6px;
     transition: 0.5s;
+    font-size: 25px;
+
 
 }
 nav ul li a:hover::after{
@@ -87,6 +90,8 @@ nav ul li a:hover::after{
 #about {
     padding: 80px 0;
     color: #ababab;
+    font-size: 19px;
+    
 }
 
 .row {
@@ -114,8 +119,11 @@ nav ul li a:hover::after{
     color:#fff ;
 }
 .tab-titles{
+
     display: flex;
     margin: 20px 0 40px;
+    transform: scale(1.05); 
+    transform: scale(1.5); 
 }
 .tab-links{
     margin-right: 50px;
@@ -123,9 +131,12 @@ nav ul li a:hover::after{
     font-weight: 500;
     cursor:pointer ;
     position: relative;
+    font-size: 25px;
+
 
 }
 .tab-links::after{
+    transform: scale(1.09);
     content: ' ';
     width: 0;
     height: 3px;
@@ -133,12 +144,23 @@ nav ul li a:hover::after{
     position: absolute;
     left: 0;
     bottom: -8px;
-    transition: 0.5s;
+
 }
 .tab-links.active-link::after{
     width: 50%;
 }
 .tab-contents ul li span{
     color:#1e0c5c
-    font-size: 14px;
+    font-size: 25px;
 }
+.styled-image {
+    width: 300px;       
+    height: auto;        
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  
+  }
+  
+  .styled-image:hover {
+    transform: scale(1.05); 
+  }
